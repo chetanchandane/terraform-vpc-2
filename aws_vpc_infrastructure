@@ -1,0 +1,7 @@
+digraph "AWS VPC Infrastructure" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="AWS VPC Infrastructure" nodesep=0.60 pad=2.0 rankdir=TB ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	d1278512de3e45a893cbfcdb0faed5bc [label=Internet height=1.9 image="/Users/chetanchandane/anaconda3/lib/python3.11/site-packages/resources/aws/general/internet-alt1.png" shape=none]
+	bfa01871f38a4f1a97d4b7db1703af86 [label="VPC (10.0.0.0/16)" height=1.9 image="/Users/chetanchandane/anaconda3/lib/python3.11/site-packages/resources/aws/network/vpc.png" shape=none]
+}
